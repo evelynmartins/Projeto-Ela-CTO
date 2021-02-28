@@ -1,0 +1,239 @@
+body {
+    background-color: #415A77;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px
+}
+.navbar {
+    align-items: center;
+    align-content: center;
+    background-color: #415A77;
+    color: wheat;
+    /*cor do login na nava*/
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    justify-content: space-between;
+    text-decoration: none;
+    position: fixed;
+    width: 100%;
+}
+
+
+#logonav {
+    align-items: left;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    min-width: 50%;
+    height: 100%;
+}
+#submit {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+}
+nav button {
+
+    /** Tem que alinhar o button **/
+
+    justify-items: center;
+    align-items: center;
+    background-color: #415a77;
+    border-radius:40px;
+    border-color: rgb(23, 62, 97);
+    border-style: inherit;
+}
+
+nav img {
+    height: 40%;
+
+}
+
+header {
+    background-color: #89B0AE;
+    color: #555B6E;
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+    height: 700px;
+    width: 800px;
+    align-content: space-between;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    text-decoration: none;
+}
+h1 {
+    color: rgb(214, 196, 162);
+    font-size: 80;
+    font-style: italic;
+    font-weight:bolder;
+}
+
+.modulos {
+    background-color: #89B0AE;
+    color: #555B6E;
+    width: 800px;
+    height: 400px;
+    display: flex;
+    text-align: center;
+    text-decoration: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.agenda {
+
+    background-color: #BBD8D2;
+    border-radius: 15px;
+    border-color: #555B6E;
+    border-style: solid;
+    width: 200px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    justify-items: space-around;
+
+}
+
+.cadastro {
+
+    background-color: #BBD8D2;
+    border-radius: 15px;
+    border-color: #555B6E;
+    border-style: solid;
+    width: 200px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-between;
+    justify-items: space-around;
+}
+
+.estoque {
+
+    background-color: #BBD8D2;
+    border-radius: 15px;
+    border-color: #555B6E;
+    border-style: solid;
+    width: 200px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-between;
+    justify-items: space-around;
+}
+
+.agenda img {
+    height: 30%;
+}
+
+.cadastro img {
+
+    height: 30%;
+}
+
+.estoque img {
+
+    height: 30%;
+    
+}
+aside p{
+    color: wheat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+}
+aside h2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    color: rgb(214, 196, 162);
+}
+
+.final{
+
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+
+
+}
+
+#beneficios{
+
+    background-color:#89B0AE;
+    color: #363d55;
+    width: 385px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+   
+
+}
+
+#espaço{
+    width: 30px;
+}
+
+#contato{  
+    color: #363d55; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: start;
+    background-color: #89B0AE;
+    height: 320px;
+    width: 385px;
+    
+}    
+       
+.rodape{
+
+    width: 800px;
+    display: flex;
+    flex-direction:row;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    justify-items: center;
+}
+
+#redes{
+
+    display: flex;
+    flex-direction:row;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+    justify-items: center;
+    
+}
+.rodape button {
+    
+    background-color: #415a77;
+    border-color: rgb(58, 109, 153);
+    border-style: inherit;
+
+    
+}
+

@@ -1,0 +1,26 @@
+criando banco de dados
+create TABLE tblLogin
+(
+    IDPessoa INT INDENTITY(1,1) PRIMARY KEY  NOT NULL,
+    Nome VARCHAR(100) NOT NULL,
+    CPF CHAR(11) NULL, 
+    DataNascimento Date NOT NULL,
+    Senha PRIMARY NOT NULL,   
+)
+create TABLE tblTelefoneTipo
+(
+   IDTelefoneTipo INT  PRIMARY KEY NOT NULL,
+   Descriacao VARCHAR(50) NOT NULL,
+
+)
+create TABLE tblTelefone
+(
+    IDTelefone INT  PRIMARY KEY NOT NULL,
+    IDPessoa INT NOT NULL FOREIGN KEY REFERENCES tblLogin(IDPessoa), 
+    IDTelefoneTipo INT NOT NULL FOREIGN KEY REFERENCES tblTelefoneTipo(IDTelefoneTipo),
+    DDD VARCHAR(2) NOT NULL,
+    Prefixo VARCHAR (4) NOT NULL,
+    Numero VARCHAR (4) NOT NULL,
+    Principal BIT NOT NULL,
+-------------------------
+
