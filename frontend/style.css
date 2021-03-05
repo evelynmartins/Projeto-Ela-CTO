@@ -164,6 +164,7 @@ aside h2{
 input[type=submit]{
     display: block;
     background-color: #ccc;
+    color: #EF6306;
     height: 35px;
     border: none;
     outline: 0;
