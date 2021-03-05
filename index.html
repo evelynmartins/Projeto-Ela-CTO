@@ -102,11 +102,12 @@
             <div id="contato">
                 <h3>Preencha o formulário para receber mais informações</h3>
             
-                <form id=info>
-                    <p><input class="" type="nome" placeholder="Nome" ></p>
-                    <p><input class="" type="number" placeholder="Telefone" ></p>
-                    <p><input class="" type="email" placeholder="E-mail" ></p>
-                    <p><button class="" type="submit">Enviar</button></p>
+                <form id=info class="formulario" method="post">
+                    
+                    <p><label for="nome">Nome:</label><input type="nome" placeholder="Nome"></p>
+                    <p><label for="telefone">Telefone:</label><input type="number" placeholder="Telefone"></p>
+                    <p><label for="email">E-mail:</label><input type="email" placeholder="E-mail" ></p>
+                    <p><input type="submit" name="acao" value="Enviar"></p>
                 </form>
             </div>
 
