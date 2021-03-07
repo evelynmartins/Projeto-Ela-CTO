@@ -45,9 +45,9 @@ nav button {
     justify-items: center;
     align-items: center;
     background-color: #415a77;
+    border-style: inherit;
     border-radius:40px;
     border-color: rgb(23, 62, 97);
-    border-style: inherit;
 }
 
 nav img {
@@ -177,13 +177,20 @@ aside h2{
 #beneficios{
 
     background-color:#89B0AE;
-    color: #363d55;
+    color: #B34A05;
     width: 385px;
     height: 320px;
     display: flex;
     flex-direction: column;
-   
-
+    
+    
+}
+#textBen{
+    
+    font-size: 25px;
+    font-weight: bolder;
+    color: #555B6E;
+    
 }
 
 #espaço{
@@ -192,16 +199,33 @@ aside h2{
 
 #contato{  
     color: #363d55; 
+    padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     justify-content: start;
     background-color: #89B0AE;
-    height: 320px;
-    width: 385px;
+    height: 300px;
+    width: 375px;
+    font-size:20px;
     
 }    
+
+#info {
+
+    justify-items: center;
+    align-items: center;
+    
+}
+
+.final button{
+
+    background-color: #89b0ae;
+    border-style: inherit;
+    border-radius:40px;
+}
+
        
 .rodape{
 
