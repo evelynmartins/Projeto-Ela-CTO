@@ -33,6 +33,9 @@
         <div id="calendario">
 
         <h3>Data hoje </h3>
+            <legend>Data de hoje</legend>
+            <label for="date"></label>
+            <input type="date" id="date" name="date">
         <ul id=eventosData>
             <li>evento 1</li>
             <li>evento 1</li>
@@ -40,6 +43,9 @@
         </ul>
 
         <h3>Data próxima </h3>
+            <legend>Proxima Data</legend>
+            <label for="date"></label>
+            <input type="date" id="date" name="date">
         <ul id=eventosFu>
             <li>evento 1</li>
             <li>evento 1</li>
@@ -47,14 +53,17 @@
         </ul>
         </div>
 
-        <div>
+        <div class ="notes">
 
             <h3>Anotações</h3>
+
             <textarea rows="10" cols="40" maxlength="900"></textarea>
-            <ul id=notes>
-                <li>evento 1</li>
-                <li>evento 1</li>
                 
+            <ul id=notes>
+                <input type="checkbox" name="opcoes" value="evento_1"/>Evento 1<br/>
+                <input type="checkbox" name="opcoes" value="evento_2"/>Evento 2<br/>
+                <input type="checkbox" name="opcoes" value="evento_3"/>Evento 3<br/>
+                <input type="checkbox" name="opcoes" value="evento_4"/>Evento 4
             </ul>
 
         </div>
