@@ -8,7 +8,6 @@ body {
     align-content: center;
     background-color: #415A77;
     color: #EF6306;
-    /*cor do login na nava*/
     display: flex;
     flex-direction: row;
     font-size: 18px;
@@ -17,8 +16,6 @@ body {
     position: fixed;
     width: 100%;
 }
-
-
 #logonav {
     align-items: left;
     display: flex;
@@ -39,9 +36,6 @@ body {
     align-content: center;
 }
 nav button {
-
-    /** Tem que alinhar o button **/
-
     justify-items: center;
     align-items: center;
     background-color: #415a77;
@@ -49,11 +43,10 @@ nav button {
     border-radius:40px;
     border-color: rgb(23, 62, 97);
 }
-
 nav img {
     height: 40%;
-
 }
+/* nav esta ok*/
 
 header {
     background-color: #89b0ae;
@@ -69,33 +62,22 @@ header {
     justify-items: center;
     text-decoration: none;
 }
-h1 {
-    color: #EF6306;
-    font-size: 80;
-    font-style: italic;
-    font-weight:bolder;
-}
-
 header h1{
-
     color: #B34A05;
     font-style: italic;
     font-size: 55px;
-
+    font-style: italic;
+    font-weight:bolder;
 }
 h2{
     font-weight:bolder;
     margin: 2px;
-    
 }
 
 .modulos h2{
-
     color: #EF6306;
     margin: 3px;
     font-weight: 900;
-    
-
 }
 
 .modulos {
@@ -113,8 +95,6 @@ h2{
 
 
 .agenda {
-
-    background-color: #BBD8D2;
     border-radius: 15px;
     border-color: #555B6E;
     border-style: solid;
@@ -128,23 +108,17 @@ h2{
     justify-items: space-around;
 
 }
-
-
-
 .agenda img {
     height: 30%;
 }
-
 .cadastro img {
 
     height: 30%;
 }
-
 .estoque img {
 
     height: 30%;
-    
-}
+    }
 aside p{
     color: wheat;
     display: flex;
@@ -182,27 +156,20 @@ input[type=submit]{
     align-items: center;
     justify-content: center;
     justify-items: center;
-
-
 }
 
 #beneficios{
-
     background-color:#89B0AE;
     color: #B34A05;
     width: 385px;
     height: 320px;
     display: flex;
     flex-direction: column;
-    
-    
 }
 #textBen{
-    
     font-size: 25px;
     font-weight: bolder;
     color: #555B6E;
-    
 }
 
 #espaço{
@@ -221,14 +188,11 @@ input[type=submit]{
     height: 300px;
     width: 375px;
     font-size:20px;
-    
 }    
-
 #info {
 
     justify-items: center;
     align-items: center;
-    
 }
 
 .final button{
