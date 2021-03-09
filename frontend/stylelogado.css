@@ -60,31 +60,16 @@ h1 {
         
     }
     .agenda{
-        color: #231b6e;
-        font-weight: bolder;
-        font-size: 20px;
+        color: black;
         width:300px;
         height: 60px;
         margin-top: 20px;
        
-        
     }
-
-    .rodape button {
-    
-        background-color: #89B0AE;
-        border-color: rgb(58, 109, 153);
-        border-style: inherit;
-    
-        
+    .estoque{
+        color: black;
+        width:300px;
+        height: 60px;
+        margin-top: 20px; 
     }
-
-    h3{
-
-        color: #231b6e;
-    }
-
-    .rodape h1{
-
-        color: #B34A05;
-    }
+© 2021 GitHub, Inc.
