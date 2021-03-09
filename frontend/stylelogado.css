@@ -2,18 +2,16 @@ body {
     background-color: #89B0AE;
     font-family: 'Montserrat', sans-serif;
     margin: 0px
+    
 }
-.navbar { 
 
-    background-color:#415A77;
+.navbar {
+    background-color: #415A77;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content:space-around;
-    
-    
+    justify-content: space-around;
 }
-
 
 #logonav {
     align-items: left;
@@ -28,11 +26,11 @@ body {
     height: 100%;
 }
 
-#logado{
-
+#logado {
     color: rgb(250, 250, 250);
-    font-size:20px;
-    font-weight:bolder;
+    font-size: 20px;
+    font-weight: bolder;
+    
 
 }
 
@@ -40,36 +38,58 @@ h1 {
     color: rgb(214, 196, 162);
     font-size: 80;
     font-style: italic;
-    font-weight:bolder;
+    font-weight: bolder;
 }
 
-.painelPrincipal{
-
+.painelPrincipal {
     display: flex;
     flex-direction: row;
     align-content: center;
     justify-content: space-around;
-    }
+    width: 900px;
+}
 
-#eventosData{
+#eventosData {
+    border-style: solid;
+    border-radius: 20px;
+    width: 300px;
+    height: 60px;
+    color: #415A77;
+}
 
-        border-style: solid;
-        border-radius: 20px;
-        width:300px;
-        height: 60px;
-        
-    }
-    .agenda{
-        color: black;
-        width:300px;
-        height: 60px;
-        margin-top: 20px;
-       
-    }
-    .estoque{
-        color: black;
-        width:300px;
-        height: 60px;
-        margin-top: 20px; 
-    }
+.agenda {
+    
+    padding-top: 20px;
+    color: #231b6e;
+    font-weight: bolder;
+    font-size: 20px;
+    width: 300px;
+    height: 60px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
 
+}
+
+.agenda button{
+
+    background-color:rgb(204, 207, 230);
+    height: 40px;
+    border-radius: 20px;
+    font-weight: bolder;
+    color: rgb(58, 109, 153) ;
+}
+
+.rodape button {
+    background-color: #89B0AE;
+    border-color: rgb(58, 109, 153);
+    border-style: inherit;
+}
+
+h3 {
+    color: #231b6e;
+}
+
+.rodape h1 {
+    color: #B34A05;
+}
