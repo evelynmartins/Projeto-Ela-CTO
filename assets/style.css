@@ -135,7 +135,20 @@ aside h2{
     justify-content: center;
     color: rgb(214, 196, 162);
 }
-input[type=submit]{
+    input[type=submit]{
+    display: block;
+    background-color: #ccc;
+    color: #EF6306;
+    height: 35px;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 15px;
+}
+input[type="reset"]{ 
     display: block;
     background-color: #ccc;
     color: #EF6306;

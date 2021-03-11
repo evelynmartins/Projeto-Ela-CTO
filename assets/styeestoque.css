@@ -1,0 +1,29 @@
+body {
+    background-color: #415A77;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px
+}
+.navbar {
+    align-items: center;
+    align-content: center;
+    background-color: #415A77;
+    color: #EF6306;
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    justify-content: space-between;
+    text-decoration: none;
+    position: fixed;
+    width: 100%;
+}
+#logonav {
+    align-items: left;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    min-width: 50%;
+    height: 100%;
+}
