@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap" rel="stylesheet">
     <link href="./assets/icon/logo.png" rel="icon">
-    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="assets/style.css">
     <title>BUSSINESS SERVICE</title>
     
 </head>
@@ -20,7 +20,7 @@
         
         <div id="logonav">
 
-            <img src="./imagens/logo.png" height="auto" width="80" alt="logo" aling="left" >
+            <img src="./assets/imagens/logo.png" height="auto" width="80" alt="logo" aling="left" >
             <h1>BUSSINESS SERVICE</h1>
             <!-- DADOS DE LOGIN -->
             
@@ -31,7 +31,7 @@
         <form id="submit">
             <p>Login <input class="" type="login" placeholder="Login" ></p>
             <p>Senha <input type="password" name="senha" size = "10" maxlength="6" value="123456"></p>
-            <p><button type="submit">  <img src= "imagens/botaoEnviar.png" height="auto" width="40" alt="logo"></button></p>    
+            <p><button type="submit">  <img src= "./assets/imagens/botao_enviar.png" height="auto" width="40" alt="logo"></button></p>    
             </form>
          
         </div>
@@ -39,7 +39,7 @@
     <center style="padding-top: 60px;">
         
         <header>
-            <img src="./imagens/capa.png" alt="capahead" />
+            <img src="./assets/imagens/capa.png" alt="capahead" />
             <h1> BUSSINESS SERVICE</h1>
             <h2>Plataforma de gestão para o seu negócio no tamanho da sua necessidade.</h3>
             <h3>Você pode contrar pacotes personalizados de acordo com o suas necessidades. 
@@ -51,7 +51,7 @@
             
             <div class = "agenda"> 
                 
-                <img src="./imagens/agenda.png" alt="logoAgenda" />
+                <img src="./assets/imagens/agenda.png" alt="logoAgenda" />
                 <h2>Agenda</h2>
                 <h3>Controle de compromissos e agenda de atendimento em um só lugar!</h3>
                 
@@ -59,7 +59,7 @@
             
             <div class = "agenda">
 
-                <img src="./imagens/estoque.png" alt="logoEstoque" />
+                <img src="./assets/imagens/estoque.png" alt="logoEstoque" />
                 <h2>Estoque</h2>
                 <h3>Controle de estoque, relatórios e filtros de consulta rápida.</h3>
                 
@@ -67,7 +67,7 @@
 
             <div class = "agenda">
 
-                <img src="./imagens/cadastro.png" alt="logoCadastro" />
+                <img src="./assets/imagens/cadastro.png" alt="logoCadastro" />
                 <h2>Cadastro</h2>
                 <h3>Cadastro de clientes, anotações contínuas e sistema inteligente de busca.</h3>
                 
@@ -104,11 +104,17 @@
             <div id="contato">
                 <h3>Preencha o formulário para receber mais informações</h3>
             
-                <form id="info">
-                    <p><input class="nome" type="nome" placeholder="Nome" ></p>
-                    <p><input class="telefone" type="number" placeholder="Telefone" ></p>
-                    <p><input class="email" type="email" placeholder="E-mail" ></p>
-                    <p><button type="submit">  <img src= "imagens/botaoEnviar.png" height="auto" width="40" alt="logo"></button></p>
+                <form method:"post" id="info">
+                    <p><label for="name"></label></p>
+                    <p><input class="nome" type="text"name="name" placeholder="Nome" ></p>
+
+                    <p><label for="telefone"></label></p>
+                    <p><input class="telefone" type="number" telefone="telefone" placeholder="Telefone" ></p>
+                    
+                    <p><label for="email"></label></p>
+                    <p><input class="email" type="email" email="email" placeholder="E-mail" ></p>
+                    
+                    <p><button type="submit">  <img src= "./assets/imagens/botaoEnviar.png" height="auto" width="40" alt="logo"></button></p>
                 </form>
             </div>
 
@@ -130,8 +136,8 @@
 
             <div id=redes>
                 
-                <button type="submit">  <img src= "imagens/logoFace.png" height="auto" width="40" alt="Facebook"></button>
-                <button type="submit">  <img src= "imagens/logoInsta.png" height="auto" width="40" alt="Instagram"></button> 
+                <button type="submit">  <img src= "./assets/imagens/logoFace.png" height="auto" width="40" alt="Facebook"></button>
+                <button type="submit">  <img src= "./assets/imagens/logoInsta.png" height="auto" width="40" alt="Instagram"></button> 
                 
             </div>    
     </section>
