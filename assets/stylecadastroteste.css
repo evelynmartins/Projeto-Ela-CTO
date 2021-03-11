@@ -1,0 +1,22 @@
+body {
+    background-color: #415A77;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px
+    
+}
+
+
+
+nav img {
+    height: 90%;
+}
+
+#formCadastro{
+
+    background-color: #89b0ae;
+    color: #0a1a4e;
+    font-weight: bold;
+    width: 800px;
+    padding: 20px;
+}
+

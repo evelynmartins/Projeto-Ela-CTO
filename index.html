@@ -145,11 +145,18 @@
     </center>
   
 </body>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js%22%3"></script>
+
 <script>
-axios.post("http://localhost:8080/login" , {username:"admin@gmail.com",password:"123456"})
-.then(response => console.log(response))
-.catch(error => console.log(error))
+
+const header = {
+   method:"POST",
+   body: JSON.stringify({"username":"admin@gmail.com","password":"123456"}),
+   mode:"no-cors",
+   "Content-Type":"application/json"
+}    
+fetch("http://localhost:8080/login" , header)
+.then(response => alert(response))
+.catch(error => alert(error))
 </script>
 </html>
        

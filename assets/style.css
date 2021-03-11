@@ -208,6 +208,10 @@ input[type="reset"]{
     align-items: center;
 }
 
+textarea{
+    resize:none;
+}
+
 .final button{
 
     background-color: #89b0ae;
