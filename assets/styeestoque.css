@@ -27,3 +27,16 @@ body {
     min-width: 50%;
     height: 100%;
 }
+estoque{
+    align-items: center;
+    align-content: center;
+    background-color: #415A77;
+    color: #EF6306;
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    justify-content: space-between;
+    text-decoration: none;
+    position: fixed;
+    width: 100%; 
+}
