@@ -196,7 +196,6 @@ input[type="reset"]{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    justify-content: start;
     background-color: #89B0AE;
     height: 300px;
     width: 375px;
@@ -204,10 +203,21 @@ input[type="reset"]{
 }    
 #info {
 
-    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
-}
 
+}
+#info input{
+
+    width: 200px;
+    padding: 10px;
+    margin:10px;
+    border-radius: 20px;
+    font-size:15px;
+    font-weight:bold;
+}
 textarea{
     resize:none;
 }
