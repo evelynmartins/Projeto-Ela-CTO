@@ -7,7 +7,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap" rel="stylesheet">
     <link href="./frontend/icon/logo.png" rel="icon">
-    <link rel="stylesheet" href="./assets/stylelogado.css">
+    <link rel="stylesheet" href="./assets/styleagenda.css">
+    <script type="text/javascript" href= "./assets/scriptagenda.js"></script>
     <title>AGENDA - BUSSINESS SERVICE</title>
 </head>
 <nav class="navbar">
@@ -17,27 +18,24 @@
         <h1>BUSSINESS SERVICE</h1>
     </div> 
 </nav>
-<section class="painelPrincipal">
+<body>
+    
+    <div id="myDIV" class="header">
+        <h2>My To Do List</h2>
+        <input type="text" id="myInput" placeholder="Title...">
+        <span onclick="newElement()" class="addBtn">Add</span>
+      </div>
+      
+      <ul id="myUL">
+        <li>Hit the gym</li>
+        <li class="checked">Pay bills</li>
+        <li>Meet George</li>
+        <li>Buy eggs</li>
+        <li>Read a book</li>
+        <li>Organize office</li>
+      </ul>
+</body>
+<footer>
 
-    <div id="calendario">
-
-    <h3>Eventos </h3>
-        <legend>Data de hoje</legend>
-        <label for="date"></label>
-        <input type="date" id="date" name="date">
-    <ul id=eventosData>
-        <li>evento 1</li>
-        <li>evento 1</li>
-        <li>evento 1</li>
-    </ul>
-
-    <h3>Data próxima </h3>
-        <legend>Proxima Data</legend>
-        <label for="date"></label>
-        <input type="date" id="date" name="date">
-    <ul id=eventosFu>
-        <li>evento 1</li>
-        <li>evento 1</li>
-        
-    </ul>
-    </div>
+</footer>
+</html>
