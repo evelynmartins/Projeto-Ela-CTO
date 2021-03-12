@@ -1,20 +1,23 @@
 body {
-    background-color: #415A77;
+    background-color: #457B9D;
     font-family: 'Montserrat', sans-serif;
     margin: 0px
 }
 .navbar {
     align-items: center;
-    align-content: center;
+    align-content: space-between;
     background-color: #415A77;
-    color: #EF6306;
+    color: #F1FAEE;
     display: flex;
     flex-direction: row;
-    font-size: 18px;
-    justify-content: space-between;
+    font-size: 20px;
+    font-weight:bolder;
+    justify-content: center;
     text-decoration: none;
     position: fixed;
     width: 100%;
+    height: 100px;
+    
 }
 #logonav {
     align-items: left;
@@ -24,33 +27,61 @@ body {
     justify-content: center;
     align-content: center;
     align-items: center;
-    min-width: 50%;
+    min-width: 40%;
     height: 100%;
 }
+
+.navbar h1{
+color: #E94957;
+}
+
 #submit {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-items: center;
     justify-content: center;
-    align-content: center;
+    justify-items: center;
+    
 }
+
+#submit p {
+
+margin: 8px;
+}
+
+#submit input{
+
+    height:25px;
+    width: 100px;
+    border-radius: 20px;
+    font-size:16px;
+    border-color: #F1FAEE ;
+    border-style: solid;
+    font-weight: bold;
+
+}
+
+
 nav button {
     justify-items: center;
     align-items: center;
     background-color: #415a77;
     border-style: inherit;
-    border-radius:40px;
+    
     border-color: rgb(23, 62, 97);
 }
+
+nav button:hover{
+    background-color:rgb(57, 86, 121);
+}
 nav img {
-    height: 40%;
+    height: 80%;
 }
 /* nav esta ok*/
 
 header {
-    background-color: #89b0ae;
-    color: #555B6E;
+    background-color: #A8DADC;
+    color: #415A77;
     display: flex;
     flex-direction: column;
     padding-top: 80px;
@@ -63,7 +94,7 @@ header {
     text-decoration: none;
 }
 header h1{
-    color: #B34A05;
+    color: #E94957;
     font-style: italic;
     font-size: 55px;
     font-style: italic;
@@ -75,14 +106,14 @@ h2{
 }
 
 .modulos h2{
-    color: #EF6306;
+    color: #E94957;
     margin: 3px;
     font-weight: 900;
 }
 
 .modulos {
-    background-color: #89B0AE;
-    color: #555B6E;
+    background-color: #A8DADC;
+    color: #415A77;
     width: 800px;
     height: 400px;
     display: flex;
@@ -96,7 +127,7 @@ h2{
 
 .agenda {
     border-radius: 15px;
-    border-color: #555B6E;
+    border-color: #415A77;
     border-style: solid;
     padding: 10px;
     width: 200px;
@@ -138,7 +169,7 @@ aside h2{
     input[type=submit]{
     display: block;
     background-color: #ccc;
-    color: #EF6306;
+    color: #E94957;
     height: 35px;
     border: none;
     outline: 0;
@@ -151,7 +182,7 @@ aside h2{
 input[type="reset"]{ 
     display: block;
     background-color: #ccc;
-    color: #EF6306;
+    color: #E94957;
     height: 35px;
     border: none;
     outline: 0;
@@ -172,17 +203,27 @@ input[type="reset"]{
 }
 
 #beneficios{
-    background-color:#89B0AE;
-    color: #B34A05;
-    width: 385px;
+    background-color:#A8DADC;
+    color: #E94957;
+    width: 375px;
     height: 320px;
     display: flex;
+    line-height: 39px;
+    text-align: left;
     flex-direction: column;
+
 }
+
+#beneficios h2{
+
+  text-align: center;
+  font-size:30px;
+}
+
 #textBen{
     font-size: 25px;
     font-weight: bolder;
-    color: #555B6E;
+    color: #415A77;
 }
 
 #espaço{
@@ -190,15 +231,17 @@ input[type="reset"]{
 }
 
 #contato{  
-    color: #363d55; 
+    color: #415A77; 
     padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: start;
     align-items: center;
-    background-color: #89B0AE;
+    background-color: #A8DADC;
     height: 300px;
     width: 375px;
+    
     font-size:20px;
 }    
 #info {
@@ -211,12 +254,15 @@ input[type="reset"]{
 }
 #info input{
 
-    width: 200px;
+    width: 250px;
+    border-width: 3px;
     padding: 10px;
-    margin:10px;
+    margin:5px;
     border-radius: 20px;
-    font-size:15px;
-    font-weight:bold;
+    font-size:16px;
+    border-color: #415A77 ;
+    border-style: solid;
+    font-weight: bold;
 }
 textarea{
     resize:none;
@@ -224,11 +270,15 @@ textarea{
 
 .final button{
 
-    background-color: #89b0ae;
+    background-color: #A8DADC;
     border-style: inherit;
-    border-radius:40px;
+    border-radius:50px;
+    
 }
 
+.final button:hover{
+    background-color:#80afb1;
+}
        
 .rodape{
 
@@ -255,14 +305,17 @@ textarea{
 .rodape h1{
 
     font-size: 20px;
-    color:#FA8638;
+    color:#F1FAEE;
 }
 .rodape button {
     
-    background-color: #415a77;
+    background-color: #457B9D;
     border-color: rgb(58, 109, 153);
     border-style: inherit;
 
-    
-}
+    }
+
+.rodape button:hover{
+        background-color:#415A77;
+    }
 

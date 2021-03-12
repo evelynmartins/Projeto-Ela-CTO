@@ -15,7 +15,7 @@
 
 <body>
 
-    
+  
     <nav class="navbar">
         
         <div id="logonav">
@@ -31,11 +31,12 @@
         <form id="submit">
             <p>Login <input class="" type="login" placeholder="Login" ></p>
             <p>Senha <input type="password" name="senha" size = "10" maxlength="6" value="123456"></p>
-            <p><button type="submit">  <img src= "./assets/imagens/botao_enviar.png" height="auto" width="40" alt="logo"></button></p>    
+            <a href= "logado.html"> <button type="submit">  <img src= "./assets/imagens/botao_enviar.png" height="auto" width="40" alt="logo"></button></a>    
             </form>
          
         </div>
     </nav>    
+
     <center style="padding-top: 60px;">
         
         <header>
@@ -144,19 +145,22 @@
     
     </center>
   
+    <!-- Comandos de vinculo com backend que a Ana está analisando o erro - Uso abaixo
+        
+    <script>
+
+        const header = {
+            method:"POST",
+            body: JSON.stringify({"username":"admin@gmail.com","password":"123456"}),
+            mode:"no-cors",
+            "Content-Type":"application/json"
+        }    
+        fetch("http://localhost:8080/login" , header)
+        .then(response => alert(response))
+        .catch(error => alert(error))
+    </script>
+    </html>
+    
+    -->
 </body>
 
-<script>
-
-const header = {
-   method:"POST",
-   body: JSON.stringify({"username":"admin@gmail.com","password":"123456"}),
-   mode:"no-cors",
-   "Content-Type":"application/json"
-}    
-fetch("http://localhost:8080/login" , header)
-.then(response => alert(response))
-.catch(error => alert(error))
-</script>
-</html>
-       
