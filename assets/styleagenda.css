@@ -33,9 +33,12 @@ body {
     height: 100%;
 }
 #calendario{
-  width: auto;
- 
-
+  width:100%;
+  display: center;
+  flex-direction: column;
+  justify-content: center;
+  border: "0" 
+  
 }
 
 
