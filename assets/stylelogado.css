@@ -52,18 +52,21 @@ h1 {
 
 .notes{
 
-    font-size: 25px;
+    font-size: 29px;
     color:#415A77;
     font-weight: bolder;
-    width: 800px;
+    max-width: 100%;
+    
+
     
 }
 
 .cxtxt{
 
     background-color: #d3ecee;
-    border: 3px 
-    solid #415A77;
+    font-size: 20px;
+    
+    border:0px;
     border-radius: 15px;
 }
 
@@ -142,4 +145,50 @@ h1 {
 }
 textarea{
     resize: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+  }
+
+#painel{
+
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:center;
+    
+    
+  }
+
+.tarefasCheck{
+    list-style-type: none;
+      
+      
+}
+
+
+
+.tarefasCheck input{
+
+    border-radius: 10px;
+    border:0px;
+    font-size: 18px;
+    margin:1px;
+    max-width:100%;
+    background-color:#d3ecee;
+
+   
+}
+  
+
+
+.todolist{
+
+    font-size: 25px;
+    color:#415A77;
+    font-weight: bolder;
+    width: 500px;
+    
 }
