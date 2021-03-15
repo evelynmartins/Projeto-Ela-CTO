@@ -32,7 +32,14 @@ body {
     min-width: 40%;
     height: 100%;
 }
-
+#calendario{
+  width:100%;
+  display: center;
+  flex-direction: column;
+  justify-content: center;
+  border: "0" 
+  
+}
 
 
 .month {
