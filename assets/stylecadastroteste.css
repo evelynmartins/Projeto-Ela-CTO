@@ -2,21 +2,104 @@ body {
     background-color: #415A77;
     font-family: 'Montserrat', sans-serif;
     margin: 0px
-    
 }
 
+h1 {
+    color: #E94957;
+}
+
+
+#logado {
+    color: #F1FAEE;
+    font-size: 20px;
+    font-weight: bolder;
+
+
+}
+
+.navbar {
+    background-color: #415A77;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#logonav {
+    align-items: left;
+    color: #E94957;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    min-width: 50%;
+    height: 100%;
+}
 
 
 nav img {
     height: 90%;
 }
 
-#formCadastro{
+#formCadastro {
 
     background-color: #89b0ae;
     color: #0a1a4e;
     font-weight: bold;
-    width: 800px;
+    width: 500px;
     padding: 20px;
 }
 
+#formCadastro button {
+
+    border-radius: 10px;
+    height: 30px;
+    background-color: #bbd8d8;
+    border-style: solid;
+    color: #131b33;
+    font-weight: bold;
+    font-size: medium;
+}
+
+#painelCadastro {
+
+    display: flex;
+    flex-direction: row;
+
+    justify-items: center;
+
+
+}
+
+#pastas {
+
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    margin-left: 10px;
+    gap: 20px;
+
+}
+
+#cadaPasta {
+    border: 0px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+
+    color: #0a1a4e;
+    background-color: #89b0ae;
+    height: 125px;
+    width: 140px;
+    text-align: center;
+}
+
+
+#cadaPasta button {
+
+    background-color: #89b0ae;
+    border: 0px;
+    cursor: pointer;
+}
