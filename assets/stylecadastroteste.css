@@ -48,9 +48,10 @@ nav img {
     background-color: #89b0ae;
     color: #0a1a4e;
     font-weight: bold;
-    width: 500px;
-    height: 730px;
+    width: 520px;
+    height: 740px;
     padding: 20px;
+
 }
 
 #formCadastro button {
@@ -80,7 +81,7 @@ nav img {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    
+
     margin-left: 10px;
     gap: 20px;
 
@@ -107,45 +108,48 @@ nav img {
     cursor: pointer;
 }
 
-#cadaCadastro{
+.cadastros {
 
-    height:100%px;
-    width: 600px;
+
+    font-size: 18px;
+    padding: 5px;
+    line-height: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#cadaCadastro {
+    height: 690px;
+    width: 680px;
     background-color: #89b0ae;
     color: #222f5c;
     font-weight: bold;
+
     margin-top: 20px;
-    margin-bottom:20px;
-    font-size: 18px;
-    padding: 5px;
-    line-height:30px;
-    
-
+    margin-left: 15px;
 }
 
-#cadaCadastro h1{
+#cadaCadastro h1 {
 
-    color:#334997;
+    color: #334997;
     font-size: 25px;
-        
+
 }
 
-#info{
-
-    margin-top: 40px;
-}
-
-textarea{
+textarea {
     resize: none;
 }
-.cxtxt{
-margin-bottom: 10px;
+
+.cxtxt {
+    margin-bottom: 10px;
     background-color: #d3ecee;
     font-size: 15px;
-    max-width: 98%;
+
     border-style: none;
     border-radius: 15px;
 }
+
 #cadaCadastro button {
 
     border-radius: 10px;

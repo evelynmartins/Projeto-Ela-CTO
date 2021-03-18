@@ -27,13 +27,13 @@
             <p>Olá Usuário...</p>
         </div>
     </nav>
-   
 
-        <section id="painelCadastro">
-            
-            <div id="formCadastro">
 
-                <form action="Script_do_Formulario.php" method="post">
+    <section id="painelCadastro">
+
+        <div id="formCadastro">
+
+            <form action="Script_do_Formulario.php" method="post">
                 <fieldset>
                     <legend>Dados Pessoais</legend>
                     <table cellspacing="8">
@@ -41,7 +41,7 @@
                             <td>
                                 <label for="nome">Nome: </label>
                             </td>
-                            
+
                             <td>
                                 <input type="text" name="nome">
                             </td>
@@ -86,7 +86,7 @@
                             </td>
                             <td align="left">
                                 <input type="text" name="cpf" size="9" maxlength="9"> - <input type="text" name="cpf2"
-                                size="2" maxlength="2">
+                                    size="2" maxlength="2">
                             </td>
                         </tr>
                     </table>
@@ -97,7 +97,7 @@
                 <fieldset>
                     <legend>Dados de Endereço</legend>
                     <table cellspacing="10">
-                        
+
                         <tr>
                             <td>
                                 <label for="rua">Rua:</label>
@@ -170,67 +170,73 @@
                             </td>
                             <td align="left">
                                 <input type="text" name="cep" size="5" maxlength="5"> - <input type="text" name="cep2"
-                                size="3" maxlength="3">
+                                    size="3" maxlength="3">
                             </td>
                         </tr>
                     </table>
                 </fieldset>
                 <br />
-                
+
                 <!-- DADOS DE LOGIN -->
-                <fieldset >
+                <fieldset>
                     <legend>Informações</legend>
                     <label for="informaçoes"></label>
-                    <textarea class=cxtxt cols=50 id="opiniao" rows="10" name="opiniao" maxlength="500"
-                    wrap="hard"></textarea>
+                    <textarea class=cxtxt cols=47 id="opiniao" rows="10" name="opiniao" maxlength="500"
+                        wrap="hard"></textarea>
                 </fieldset>
-                
-            </table>
-        </fieldset>
-        <br />
+
+                </table>
+                </fieldset>
+                <br />
                 <button>Enviar</button>
                 <button>Limpar</button>
             </form>
         </div>
-        
+
         <div id="pastas">
             <div id="cadaPasta">
-                <a href="#cadastroAline"><button id=botaopasta><img src="./assets/imagens/pastacadastro.png" height="auto" width="100" alt="pasta" ></button></a>
+                <a href="#cadastroAline"><button id=botaopasta><img src="./assets/imagens/pastacadastro.png"
+                            height="auto" width="100" alt="pasta"></button></a>
                 <figcaption>Aline de Souza</figcaption>
-                
+
             </div>
             <div id="cadaPasta">
-                <button id=botaopasta><img src="./assets/imagens/pastacadastro.png" height="auto" width="100" alt="pasta" ></button>
+                <a href="#cadastroBernardo"><button id=botaopasta><img src="./assets/imagens/pastacadastro.png" height="auto" width="100"
+                        alt="pasta"></button></a>
                 <figcaption>Bernardo Luco</figcaption>
-                
+
             </div>
             <div id="cadaPasta">
-                <button id=botaopasta><img src="./assets/imagens/pastacadastro.png" height="auto" width="100" alt="pasta" ></button>
+                <a href="#cadastroGiovana"><button id=botaopasta><img src="./assets/imagens/pastacadastro.png" height="auto" width="100"
+                        alt="pasta"></button></a>
                 <figcaption>Giovana Mader</figcaption>
-                
+
             </div>
             <div id="cadaPasta">
-                <button id=botaopasta><img src="./assets/imagens/pastacadastro.png" height="auto" width="100" alt="pasta" ></button>
+                <button id=botaopasta><img src="./assets/imagens/pastacadastro.png" height="auto" width="100"
+                        alt="pasta"></button>
                 <figcaption>Fabiano Hugo</figcaption>
-                
+
             </div>
-            
+
             <div id="cadaPasta">
-                <button id=botaopasta><img src="./assets/imagens/pastacadastro.png" height="auto" width="100" alt="pasta" ></button>
+                <button id=botaopasta><img src="./assets/imagens/pastacadastro.png" height="auto" width="100"
+                        alt="pasta"></button>
                 <figcaption>Rafael Brandão</figcaption>
-                
+
             </div>
-            
-            
+
+
         </div>
-        
+
     </section>
 
     <section class="cadastros">
         <div id="cadaCadastro">
             <div id="cadastroAline">
-
+                
                 <fieldset>
+                    
                     <legend>Cadastro - ALINE DE SOUZA</legend>
                     
                     <tr>
@@ -242,15 +248,59 @@
                             RG : 258965-8 <br />
                             CPF : 589547841-76 <br />
                             Rua : Rua das Acacias <br />
-                            Numero : 54  <br />
+                            Numero : 54 <br />
                             Estado : Acre <br />
                             Cidade : Cambori <br />
                             CEP : 58746-98 <br />
-                        </td>    
+                        </td>
                         <td>
-                            <h1>Histórico :  </h1>                   
+                            <h1>Histórico : </h1>
                             
                             25/02 - Avaliação: A Aline é T21 e treina motricidade fina.<br />
+                        </td>
+
+                        
+                        <div id=info>
+                            
+                            <label for="informaçoes"></label>
+                            Adicionar informações:
+                            <textarea class=cxtxt cols=65 id="opiniao" rows="6" name="opiniao" maxlength="500"
+                                wrap="hard"></textarea>
+                            </div>
+                            <button>Enviar</button>
+                            <button>Limpar</button>
+                            
+                        </tr>
+                    </fieldset>
+                </div>
+                
+            </div>
+            
+            <div id="cadaCadastro">
+
+                <div id="cadastroBernardo">
+                    
+                <fieldset>
+                    <legend>Cadastro - Bernardo Luco</legend>
+                    
+                    <tr>
+                        <td>
+                            Nome: Bernardo <br />
+                            Sobrenome : luco <br />
+                            Email: bernardoluco@email.com <br />
+                            Nascimento : 27/03/2004 <br />
+                            RG : 258955-8 <br />
+                            CPF : 558746841-76 <br />
+                            Rua : Rua das Marias <br />
+                            Numero : 24 <br />
+                            Estado : São Paulo <br />
+                            Cidade : Campinas <br />
+                            CEP : 22457-98 <br />
+                        </td>
+                        <td>
+                            <h1>Histórico : </h1>
+                            
+                            25/02 - Avaliação: Bernardo tem PC e treina marcha.<br />
                         </td>
                         
                         
@@ -259,21 +309,65 @@
                             <label for="informaçoes"></label>
                             Adicionar informações:
                             <textarea class=cxtxt cols=65 id="opiniao" rows="6" name="opiniao" maxlength="500"
-                            wrap="hard"></textarea>               
-                            <button>Enviar</button>
-                            <button>Limpar</button>
-                        </div>   
+                            wrap="hard"></textarea>
+                        </div>
+                        <button>Enviar</button>
+                        <button>Limpar</button>
                         
                     </tr>
                 </fieldset>
             </div>
+        </div>
+
+        <div id="cadaCadastro">
+
+            <div id="cadastroGiovana">
                 
-            </div>
-            
-        </section>
+            <fieldset>
+                <legend>Cadastro - Giovana Mader</legend>
+                
+                <tr>
+                    <td>
+                        Nome: Giovana <br />
+                        Sobrenome : Mader <br />
+                        Email: giovanamader@email.com <br />
+                        Nascimento : 12/08/2012 <br />
+                        RG : 255874-8 <br />
+                        CPF : 558365214-76 <br />
+                        Rua : Rua do farol <br />
+                        Numero : 24 <br />
+                        Estado : São Paulo <br />
+                        Cidade : Taubaté <br />
+                        CEP : 25874-98 <br />
+                    </td>
+                    <td>
+                        <h1>Histórico : </h1>
+                        
+                        25/02 - Avaliação: Giovana tem Seletividade e faz integração sensorial.<br />
+                    </td>
+                    
+                    
+                    <div id=info>
+                        
+                        <label for="informaçoes"></label>
+                        Adicionar informações:
+                        <textarea class=cxtxt cols=65 id="opiniao" rows="6" name="opiniao" maxlength="500"
+                        wrap="hard"></textarea>
+
+                    </div>
+                    <button>Enviar</button>
+                    <button>Limpar</button>
+                    
+                </tr>
+            </fieldset>
+        </div>
+    </div>
+        </div>
         
-    </body>
+    </section>
     
+</body>
+
 </html>
 </body>
 <footer>
