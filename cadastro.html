@@ -27,12 +27,13 @@
             <p>Olá Usuário...</p>
         </div>
     </nav>
+   
 
-    <section id="painelCadastro">
+        <section id="painelCadastro">
+            
+            <div id="formCadastro">
 
-        <div id="formCadastro">
-
-            <form action="Script_do_Formulario.php" method="post">
+                <form action="Script_do_Formulario.php" method="post">
                 <fieldset>
                     <legend>Dados Pessoais</legend>
                     <table cellspacing="8">
@@ -40,7 +41,7 @@
                             <td>
                                 <label for="nome">Nome: </label>
                             </td>
-
+                            
                             <td>
                                 <input type="text" name="nome">
                             </td>
@@ -85,7 +86,7 @@
                             </td>
                             <td align="left">
                                 <input type="text" name="cpf" size="9" maxlength="9"> - <input type="text" name="cpf2"
-                                    size="2" maxlength="2">
+                                size="2" maxlength="2">
                             </td>
                         </tr>
                     </table>
@@ -96,7 +97,7 @@
                 <fieldset>
                     <legend>Dados de Endereço</legend>
                     <table cellspacing="10">
-
+                        
                         <tr>
                             <td>
                                 <label for="rua">Rua:</label>
@@ -169,67 +170,114 @@
                             </td>
                             <td align="left">
                                 <input type="text" name="cep" size="5" maxlength="5"> - <input type="text" name="cep2"
-                                    size="3" maxlength="3">
+                                size="3" maxlength="3">
                             </td>
                         </tr>
                     </table>
                 </fieldset>
                 <br />
-
+                
                 <!-- DADOS DE LOGIN -->
-                <fieldset>
+                <fieldset >
                     <legend>Informações</legend>
                     <label for="informaçoes"></label>
-                    <textarea class=cxtxt cols=60 id="opiniao" rows="10" name="opiniao" maxlength="500"
-                        wrap="hard"></textarea>
+                    <textarea class=cxtxt cols=50 id="opiniao" rows="10" name="opiniao" maxlength="500"
+                    wrap="hard"></textarea>
                 </fieldset>
-
-                </table>
-                </fieldset>
-                <br />
+                
+            </table>
+        </fieldset>
+        <br />
                 <button>Enviar</button>
                 <button>Limpar</button>
             </form>
         </div>
-
+        
         <div id="pastas">
             <div id="cadaPasta">
-                <button id=botaopasta><img src="./assets/imagens/pastacadastro.png" height="auto" width="100" alt="pasta" ></button>
+                <a href="#cadastroAline"><button id=botaopasta><img src="./assets/imagens/pastacadastro.png" height="auto" width="100" alt="pasta" ></button></a>
                 <figcaption>Aline de Souza</figcaption>
-                                
+                
             </div>
             <div id="cadaPasta">
                 <button id=botaopasta><img src="./assets/imagens/pastacadastro.png" height="auto" width="100" alt="pasta" ></button>
                 <figcaption>Bernardo Luco</figcaption>
-                                
+                
             </div>
             <div id="cadaPasta">
                 <button id=botaopasta><img src="./assets/imagens/pastacadastro.png" height="auto" width="100" alt="pasta" ></button>
                 <figcaption>Giovana Mader</figcaption>
-                                
+                
             </div>
             <div id="cadaPasta">
                 <button id=botaopasta><img src="./assets/imagens/pastacadastro.png" height="auto" width="100" alt="pasta" ></button>
                 <figcaption>Fabiano Hugo</figcaption>
-                                
+                
             </div>
-
+            
             <div id="cadaPasta">
                 <button id=botaopasta><img src="./assets/imagens/pastacadastro.png" height="auto" width="100" alt="pasta" ></button>
                 <figcaption>Rafael Brandão</figcaption>
-                                
+                
             </div>
-
-
+            
+            
         </div>
-
+        
     </section>
-</body>
 
+    <section class="cadastros">
+        <div id="cadaCadastro">
+            <div id="cadastroAline">
+
+                <fieldset>
+                    <legend>Cadastro - ALINE DE SOUZA</legend>
+                    
+                    <tr>
+                        <td>
+                            Nome: Aline <br />
+                            Sobrenome : De Souza <br />
+                            Email: alinesouza@email.com <br />
+                            Nascimento : 07/02/1999 <br />
+                            RG : 258965-8 <br />
+                            CPF : 589547841-76 <br />
+                            Rua : Rua das Acacias <br />
+                            Numero : 54  <br />
+                            Estado : Acre <br />
+                            Cidade : Cambori <br />
+                            CEP : 58746-98 <br />
+                        </td>    
+                        <td>
+                            <h1>Histórico :  </h1>                   
+                            
+                            25/02 - Avaliação: A Aline é T21 e treina motricidade fina.<br />
+                        </td>
+                        
+                        
+                        <div id=info>
+                            
+                            <label for="informaçoes"></label>
+                            Adicionar informações:
+                            <textarea class=cxtxt cols=65 id="opiniao" rows="6" name="opiniao" maxlength="500"
+                            wrap="hard"></textarea>               
+                            <button>Enviar</button>
+                            <button>Limpar</button>
+                        </div>   
+                        
+                    </tr>
+                </fieldset>
+            </div>
+                
+            </div>
+            
+        </section>
+        
+    </body>
+    
 </html>
 </body>
 <footer>
-
+    
 </footer>
 
 </html>
